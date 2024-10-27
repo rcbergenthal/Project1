@@ -1,0 +1,114 @@
+
+main{
+    background-color: #e3dad5;
+    overflow-x: hidden;
+}
+.body{
+    overflow-x: hidden;
+}
+
+nav#navcolor.bg-body-tertiary {
+    background-color: #e3dad5 !important; 
+}
+.fa-brands{
+    color:#02423D;
+    font-size: x-large;   
+    padding-left:3px; 
+    padding-right: 3px;
+}
+#dropdownmenu{
+background-color: #e3dad5;
+}
+.dropdown-item:hover {
+    color:white !important;
+    background-color: #e3dad5 !important;
+}
+#carouselExampleAutoplaying {
+    width: 100%; 
+    margin: auto;
+}
+  
+.carousel-inner img {
+    width: 100%; 
+    height: 450px; 
+}
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; 
+    z-index: 1;
+}
+
+.caro-text{
+    position: absolute;
+    top: 22%;
+    max-width: 800px;
+    margin-left: 18%;
+    color:white;
+    font-size: xx-large;
+    text-align: center;
+    z-index: 2;
+
+}
+.meettitle{
+    padding-top: 50px;
+    font-family: Tahoma;  
+}
+.meetcontent{
+font-family: Garamond;
+padding-right:50px;
+padding-bottom: 50px;
+font-size: x-large;
+padding-top: 20px;
+
+}
+.profilepic{
+    padding: 50px;
+ 
+    background-color: #02423D;
+   
+}
+
+#titleservice{
+    color: black;
+    padding: 10PX;
+    font-family: Tahoma;
+    text-align: center;
+}
+
+.services-container{
+    background-color: white;
+    width: 100%;
+    height:400px;
+    overflow: hidden;
+}
+.list-group-item{
+    width: 95%;
+    margin: 0 auto;
+    background-color: #e3dad5 !important;
+    font-family: gARAMOND;
+    border-color: #02423D !important;
+}
+.form-container{
+    background-color: #02423D;
+}
+.consult{
+    padding:34%;
+    font-size:x-large ;
+}
+.form-container{
+    width: 100%;
+    height: 250px;
+    padding: 25px;
+}
+footer{
+    background-color: #e3dad5;
+    text-align: center;
+}
